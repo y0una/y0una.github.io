@@ -1,9 +1,100 @@
-header{
-  text-align: center;
-}
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,400italic,300italic);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
 
-.navigation{
+header{
 /*  display: inline; */
   padding:0;
   text-align: center;
+/*  border: 2px solid red; */
+  font-family: 'Merriweather', serif;
+  padding-top: 10px
+}
+
+nav{
+  text-align: center;
+}
+
+.link{
+  display: inline-block;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  color: #73A6D4;
+  font-size:18px;
+  /*text-transform: uppercase; */
+  /*border: 1px solid blue;*/
+  /*  display: block;*/
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.get-started{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #73A6D4;
+  font-size:18px;
+  display: block;
+  text-decoration: none;
+
+
+}
+
+
+.images{
+/*  display: block;
+  margin-left: auto;
+  margin-right: auto; */
+  width: 100%;
+}
+
+.why-msg{
+  font-size: 40px;
+  font-family: 'Merriweather-italic', serif;
+  font-weight: 300;
+/*   border: 1px solid red; */
+  text-align: center;
+  padding: 50px 200px 70px 200px;
+  margin: 70px 100px 5px 100px;
+  color: #626262;
+  line-height: 90px;
+  font-size: 55px;
+  letter-spacing: 1px;
+
+}
+
+section{
+  text-align: center;
+/*  width: 600px; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 150px;
+/*  border: 1px solid blue; */
+  margin-top: 80px;
+}
+
+p{
+  font-family: 'Lato', sans-serif;
+  margin: 10px 300px 5px 300px;
+  font-size:25px;
+  color:#7D7D7D;
+  line-height: 40px;
+
+}
+
+h1{
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+/*  border: 1px solid red; */
+  padding: 10px 10px;
+}
+
+h2{
+  font-family: 'Merriweather-italic', serif;
+  font-weight: 300;
+  color: #979797;
+  font-size: 100px;
+  margin: 10px 20px 1px 20px;
 }
