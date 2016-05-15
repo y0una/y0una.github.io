@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>contact</h1>
+  </header>
+
+  <nav class="nav">
+    <a href="index.html" class="link">home</a>
+    <a href="steps.html" class="link">steps</a>
+    <a href="supplies.html" class="link">supplies</a>
+    <a href="contact.html" class="current-pg">contact</a>
+  </nav>
+
+  <!-- form -->
+
+<form action="thanks.html" method="post">
+  <fieldset class="form">
+    <div>
+      <label>Fullname</label>
+      <input type="text" name="fullname" placeholder="Fullname" class="inline-field">
+    </div>
+
+    <div >
+      <label>Email</label>
+      <input type="text" name="email" placeholder="Email" class="inline-field">
+    </div>
+
+    <div>
+      <label>Date</label>
+      <input type="date" name="Date" class="inline-field">
+    </div>
+
+    <div>
+      <label>Request for</label>
+      <select name="reason" class="inline-field">
+        <option selected="selected">Select</option>
+        <option value="print">Print</option>
+        <option value="original">Original</option>
+        <option value="large-scale">Large scale</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div>
+      <textarea name="textarea" placeholder="Message" class="msg-box"></textarea>
+    </div>
+
+    <button type="submit" class="button">Get in touch</button>
+
+  </fieldset>
+</form>
+
+</body>
+</html>
