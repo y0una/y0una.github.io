@@ -1,8 +1,8 @@
-#1. Briefly describe your understanding of what the browser does, including definitions of the following: client server render
+1. Briefly describe your understanding of what the browser does, including definitions of the following: client server render
 ----
 Our computer, the client gets information from the server, or the main computer / mainframe. This allows the client to reduce processing for the server. The computer to computer conversation involves a HyperTextTransderProtocol. The browser then renders or converts text and image data to a human-viewable format on the screen.
 
-#2. What is HTML? In your answer, include definitions of the following
+2. What is HTML? In your answer, include definitions of the following
 ----
 * Tag: tag has 2 parts the opening and closing. They are hidden on the webpage however defines how the browser should format and display content
 * Element: one component of a HTML document
